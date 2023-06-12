@@ -1,32 +1,33 @@
-body {
-    background-color: #05061a; /* Dark blue background color */
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #fff;
+.bg {
+    height:100vh;
+    background-image: linear-gradient(to bottom right,rgb(204, 29, 108) ,rgb(66, 5, 66));
+    
+    background-size:cover;
+    position:relative;
 }
-
-header {
-    padding: 20px;
+/* text css above hero image*/
+.title {
+    font-size: 4.5rem;
+}
+.desc {
+    font-size: 2rem;
+    
+}
+.desc2 {
+    font-size: 1.5rem;
+    
+}
+.main-text {
     text-align: center;
+    position:relative;
+    top: 250px;
+    left:500px;
+    transform: translate(-50%, -50%);
+    color: white;
 }
-
-nav {
-    background-color: rgba(5, 6, 26, 0.8); /* Semi-transparent dark blue */
-    padding: 10px;
-    text-align: center;
+.nav-item{
+    color: rgb(92, 148, 196);
 }
-
-section {
-    padding: 20px;
-}
-
-footer {
-    background-color: rgba(5, 6, 26, 0.8); /* Semi-transparent dark blue */
-    padding: 20px;
-    text-align: center;
-}
-
-.social-media {
-    background-color: aquamarine;
+.navbar{
+    background-color: rgb(12, 5, 5);
 }
